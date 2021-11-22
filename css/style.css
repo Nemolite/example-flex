@@ -1,0 +1,19 @@
+.box {
+    width: 100%;
+    height: auto;
+    border:1px solid red;
+    display: flex;
+    flex-direction:row; 
+}
+
+.box-item {   
+   padding: 10px;   
+}
+
+.text-inner {
+    padding: 30px;
+    background-color: green;
+    color:#fff;
+    font-size: 50px;   
+
+}
