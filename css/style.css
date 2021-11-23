@@ -1,19 +1,32 @@
-.box {
-    width: 100%;
-    height: auto;
-    border:1px solid red;
-    display: flex;
-    flex-direction:row; 
+:root {
+  --title: 40px;
 }
 
-.box-item {   
-   padding: 10px;   
+.box-picture {
+  width: 90%;
+  height: 100%;
+  margin: 0 auto 40px auto;
 }
 
-.text-inner {
-    padding: 30px;
-    background-color: green;
-    color:#fff;
-    font-size: 50px;   
+.box-picture__title {
+  text-align: center;
+  font-size: var(--title);
+}
 
+.text__inner {
+  font-size: 1.2em;
+}
+
+.box__img {
+  text-align: center;
+}
+
+.box__img img {
+  max-width: 100%;
+}
+
+.box-carta {
+  width: 90%;
+  height: 1200px;
+  margin: 0 auto;
 }
